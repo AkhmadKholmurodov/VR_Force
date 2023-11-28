@@ -3,10 +3,10 @@ Play it
 Play it
 
 
-Gun shotting Game 
-Uaing C# language and unity
+Gun shotting Game  Using C# language and unity
 
 U can play by using Oculus
+
 This is a video capture of Game
 https://github.com/AkhmadKholmurodov/VR_Force/blob/main/Recordings
 
