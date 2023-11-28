@@ -25985,11 +25985,58 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744440599}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fdf0f59258604744d9c5364416610fd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &744440601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744440599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847d8b0d968d4a14c89d7508f54c0db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnableLinearMovement: 1
+  EnableRotation: 1
+  HMDRotatesPlayer: 1
+  RotationEitherThumbstick: 0
+  RotationAngle: 45
+  Speed: 5
+  CameraRig: {fileID: 744440604}
+--- !u!114 &744440604 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11400010, guid: 126d619cf4daa52469682f85c1378b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 935218049}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744440599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &744440606
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744440599}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &746364153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7328274045180597675, guid: fa23bb44096f7ea4980ab1846336096f,
@@ -27775,7 +27822,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.49999994, y: 0.3, z: 0.49999994}
+  m_Size: {x: 0.49999994, y: 2, z: 0.49999994}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &799354341
 MeshRenderer:
@@ -43779,7 +43826,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.49999994, y: 0.3, z: 0.49999994}
+  m_Size: {x: 0.49999994, y: 2, z: 0.49999994}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1195857276
 MeshRenderer:
@@ -81444,7 +81491,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.49999994, y: 0.3, z: 0.49999994}
+  m_Size: {x: 0.49999994, y: 2, z: 0.49999994}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1896240908
 MeshRenderer:
