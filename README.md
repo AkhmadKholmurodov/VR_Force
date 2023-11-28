@@ -4,8 +4,8 @@ Gun shotting Game
 Uaing C# language and unity
 
 U can play by using Oculus
-This is a video capture from This Project
-https://github.com/AkhmadKholmurodov/VR_Force/blob/main/Recordings/movie_015.mp4
+This is a video capture of Game
+https://github.com/AkhmadKholmurodov/VR_Force/blob/main/Recordings
 
 this is map of game,This map's story very interesting because this is our bulding which is we study
 ![photo1701141441 (1)](https://github.com/AkhmadKholmurodov/VR_Force/assets/87185085/4f8cb707-d5c5-40aa-802c-fb3ab99b11e0)
