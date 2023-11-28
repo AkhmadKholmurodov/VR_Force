@@ -13,6 +13,8 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Time.deltaTime * new Vector3(0, 0, 2);
+        //transform.position += Time.deltaTime * new Vector3(0, 0, 2);
+        Vector2 input = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+        transform.position += Time.deltaTime * new Vector3(input.x, 0, input.y) * 5;
     }
 }
